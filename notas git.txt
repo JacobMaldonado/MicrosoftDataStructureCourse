@@ -1,0 +1,38 @@
+comandos:
+-git init- repositorio vacio
+-git ini
+-git add  //puede añadir varios documentos separados por espacios
+-git add .//añade todo
+
+-git status //muestra el estado de la staging area
+-git log //muestra el log de commits
+-git commit -m   //se escribe un mensaje  
+-git diff //Muestra las diferencias
+-git show HEAD  //muestra el commit head
+-git checkout HEAD  // regresa al ultimo commit guardado, como backup
+-git reset SHA  //los primeros 7 digitos del sha, cambian el commit a ser el primero y los que esten despues de este 
+                //desaparecen
+BRANCHS
+
+-git branch  // te dice en que rama estas actualmente del git
+-git branch branch_name  //crea una nueva rama
+-git checkout branch_name //cambiarse de rama
+-git merge branch_name  //une la rama actual con la maestra
+-git branch -d branch_name //borra la rama indicada
+
+REMOTES
+
+-git clone remote_location clone_name //Clona un archivo para trabajar colaborativamente, remote location es de donde se
+                                      //extrae el documento, puede ser direccion web o de computador y clone_name es
+                                      //el nombre con el que se clonara
+-git remote -v  //muestra el origen del archivo o sus remotos
+-git fetch [remotename] //trae los cambios a tu copia local, del remote
+
+-git push origin your_branch_name  //Sube la rama modificada al remote origen, solo hay que especificar la rama
+
+-git remote add origin (ruta)   //en ruta va sin parentesis
+ 
+----Añadir repositorio en github
+
+
+
